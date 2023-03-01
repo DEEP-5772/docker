@@ -1,0 +1,11 @@
+version: '3'
+services:
+  website:
+    container_name: m2p2c
+    build: 
+      context: .
+      dockerfile: dockerfile  
+    volumes:
+      - ./:/app
+    ports:
+      - "5001:5001"
