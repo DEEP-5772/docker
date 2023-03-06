@@ -1,0 +1,7 @@
+Step-1: First write the answers of all the questions.
+
+Step-2: Then with the help of "docker build -t imagename ." ommand we will build the image file. 
+
+Step-3: And then with command "docker run -d -p 8000:80 --name containername imagename" we will run the image on given port. 
+
+
